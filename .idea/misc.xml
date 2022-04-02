@@ -7,6 +7,7 @@
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/cart_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/grocery_fragment.xml" value="0.1" />
@@ -14,6 +15,10 @@
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/snacks_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/stationery_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/mipmap-anydpi-v26/ic_icon.xml" value="0.1885" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/mipmap-anydpi-v26/ic_icon_round.xml" value="0.1885" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1885" />
       </map>
     </option>
   </component>
