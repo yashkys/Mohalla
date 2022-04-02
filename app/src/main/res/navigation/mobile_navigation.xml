@@ -3,23 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/medicine_navigation">
+
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.kys.mohalla.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/grocery_navigation"
+        android:name="com.kys.mohalla.ui.grocery.GroceryFragment"
+        android:label="Grocery"
+        tools:layout="@layout/grocery_fragment" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.kys.mohalla.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/snacks_navigation"
+        android:name="com.kys.mohalla.ui.snacks.SnacksFragment"
+        android:label="Snacks"
+        tools:layout="@layout/snacks_fragment" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.kys.mohalla.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/cart_navigation"
+        android:name="com.kys.mohalla.ui.cart.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/cart_fragment" />
+
+    <fragment
+        android:id="@+id/stationery_navigation"
+        android:name="com.kys.mohalla.ui.stationery.StationeryFragment"
+        android:label="Stationery"
+        tools:layout="@layout/stationery_fragment" />
+
+    <fragment
+        android:id="@+id/medicine_navigation"
+        android:name="com.kys.mohalla.ui.medicine.MedicineFragment"
+        android:label="Medicine"
+        tools:layout="@layout/medicine_fragment" />
+
 </navigation>
