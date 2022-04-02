@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/drawable/card_background.xml" value="0.1755" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_register.xml" value="0.1" />
@@ -27,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

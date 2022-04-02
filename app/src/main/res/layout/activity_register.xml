@@ -25,7 +25,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="8dp"
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:orientation="vertical">
@@ -47,7 +46,7 @@
                 android:text="Welcome to (Mohalla)! Let's get started."
                 android:textAllCaps="false"
                 android:textColor="#FBFBFB"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
 
     </RelativeLayout>
@@ -152,7 +151,7 @@
                 android:layout_height="wrap_content">
 
                 <Button
-                    android:id="@+id/btnLogin"
+                    android:id="@+id/btnRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Register"
