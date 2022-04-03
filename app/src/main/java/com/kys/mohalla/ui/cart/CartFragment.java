@@ -32,7 +32,7 @@ public class CartFragment extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textCart;
-        groceryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //groceryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

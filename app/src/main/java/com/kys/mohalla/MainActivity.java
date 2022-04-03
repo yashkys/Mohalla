@@ -1,12 +1,16 @@
 package com.kys.mohalla;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.kys.mohalla.databinding.ActivityMainBinding;
 import com.kys.mohalla.ui.cart.CartFragment;
 import com.kys.mohalla.ui.grocery.GroceryFragment;
@@ -18,12 +22,26 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
 
+    FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
         replacementFragment(new GroceryFragment());
+
+        mAuth = FirebaseAuth.getInstance();
+        Button signout = binding.Signout;
+
+        signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAuth.signOut();
+                startActivity(new Intent(MainActivity.this, IntroductionActivity.class));
+            }
+        });
 
         setSupportActionBar(binding.toolbar);
 

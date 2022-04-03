@@ -5,14 +5,15 @@
       <map>
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/drawable/card_background.xml" value="0.1755" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
-        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_register.xml" value="0.12" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/cart_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/grocery_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/medicine_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/sample_item.xml" value="0.18" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/snacks_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/layout/stationery_fragment.xml" value="0.1" />
         <entry key="..\:/Users/yash/AndroidStudioProjects/Mohalla/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17407407407407408" />
@@ -32,7 +33,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.18" />
       </ProjectState>
     </option>
   </component>

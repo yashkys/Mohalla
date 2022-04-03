@@ -86,13 +86,12 @@
                 app:counterMaxLength="10"
                 app:helperText="Required*"
                 app:helperTextTextColor="@color/red"
-                app:prefixText="+91"
                 app:startIconDrawable="@drawable/ic_phone"
                 app:startIconTint="@color/colorPrimary">
 
 
                 <EditText
-                    android:id="@+id/EditTextInputPhoneNumber"
+                    android:id="@+id/editTextLoginPhoneNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit_text_bg"
@@ -137,6 +136,7 @@
                 app:startIconTint="@color/colorPrimary">
 
                 <EditText
+                    android:id="@+id/editTextLoginOtp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit_text_bg"
@@ -159,6 +159,7 @@
                     android:text="LOGIN"
                     android:textSize="16sp"
                     android:textStyle="bold"
+                    android:enabled="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -190,6 +191,8 @@
                     android:text="Register Now"
                     android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
+
+
             </RelativeLayout>
 
 

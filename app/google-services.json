@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048359678208",
+    "project_id": "mohalla-a9403",
+    "storage_bucket": "mohalla-a9403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048359678208:android:97f8a0483ad679147883e5",
+        "android_client_info": {
+          "package_name": "com.kys.mohalla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048359678208-clcbo7mesoqfldrl2u22duj9pgfkl941.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwfOoUtV-XU08dX3YzSd4lGpqlGeHkiSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048359678208-clcbo7mesoqfldrl2u22duj9pgfkl941.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

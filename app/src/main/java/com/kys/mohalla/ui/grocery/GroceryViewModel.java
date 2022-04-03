@@ -1,19 +1,29 @@
 package com.kys.mohalla.ui.grocery;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.kys.mohalla.Model.ItemModel;
+
+import java.util.ArrayList;
+
 public class GroceryViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
+    private final MutableLiveData<ArrayList<ItemModel>> mModel;
+    int itemImage;
+    String itemName;
+    String itemPrice;
 
     public GroceryViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mModel = new MutableLiveData<>();
+        //mModel.setValue();
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public String getText() {
+        return itemName;
+    }
+
+    public String getPrice() {
+        return itemPrice;
     }
 }
