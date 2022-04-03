@@ -1,5 +1,6 @@
 # Mohalla
 ---
+
 ### Youtube Link
 * [App Demo](https://youtu.be/u0D6fSbsSls)
 * [Design](https://youtu.be/zQ4mEHUCuvY)
@@ -61,3 +62,13 @@ We learnt to effectively use many stuff on android such as firebase , fragment,e
 *For purchasing medicines, we want to add a feature so that the users can upload his/her prescription and the meds can be provided accordingly.
 *Automatic location detection using Google Maps.
 *The User Interface can be improved further.
+
+---
+### Creators
+* Yash Khaitan (Team Learder)
+     , _1st Year Cse, IIITT_
+* Krishna Sawroop Rai
+      , _1st Year Cse, IIITT_
+* Kavuluru Lakshmi Srinidhi 
+      , _1st Year Cse, IIITT_
+   
