@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:fontFamily="@font/seg_ui_bold"
-                android:text="Welcome"
+                android:text="@string/welcome"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="36sp" />
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/seg_ui_semibold"
-                android:text="Welcome to (Mohalla)! Let's get started."
+                android:text="@string/welcome_to_mohalla_let_s_get_started"
                 android:textAllCaps="false"
                 android:textColor="#FBFBFB"
                 android:textSize="16sp" />
@@ -61,10 +61,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
             android:layout_marginTop="36dp"
             android:fontFamily="@font/seg_ui_semibold"
-            android:text="Register"
+            android:text="@string/register"
             android:textColor="@color/colorTextBlack"
             android:textSize="24sp" />
 
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:hint="Phone Number"
+                android:hint="@string/phone_number"
                 android:textColorHint="@color/colorTextBlack"
                 app:counterEnabled="true"
                 app:counterMaxLength="10"

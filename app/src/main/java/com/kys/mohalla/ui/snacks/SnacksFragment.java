@@ -24,8 +24,8 @@ public class SnacksFragment extends Fragment {
         binding = SnacksFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSnacks;
-        snacksViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textSnacks;
+//        snacksViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

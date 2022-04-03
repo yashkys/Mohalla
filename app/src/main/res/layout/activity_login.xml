@@ -62,10 +62,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
             android:layout_marginTop="36dp"
             android:fontFamily="@font/seg_ui_semibold"
-            android:text="LOGIN"
+            android:text="@string/login"
             android:textColor="@color/colorTextBlack"
             android:textSize="24sp" />
 
@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:hint="Phone Number"
+                android:hint="@string/phone_number"
                 android:textColorHint="@color/colorTextBlack"
                 app:counterEnabled="true"
                 app:counterMaxLength="10"
@@ -110,7 +110,7 @@
                     android:id="@+id/btnSendOtp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Send Otp"
+                    android:text="@string/send_otp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
                 android:layout_marginTop="16dp"
-                android:hint="OTP"
+                android:hint="@string/otp"
                 android:textColorHint="@color/colorTextBlack"
                 app:counterEnabled="true"
                 app:counterMaxLength="6"
@@ -156,7 +156,7 @@
                     android:id="@+id/btnLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LOGIN"
+                    android:text="@string/login"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:enabled="false"
@@ -179,7 +179,7 @@
                     android:id="@+id/tv1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't have an account?"
+                    android:text="@string/don_t_have_an_account"
                     android:textSize="18sp" />
 
                 <TextView
@@ -187,8 +187,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
-                    android:layout_toRightOf="@+id/tv1"
-                    android:text="Register Now"
+                    android:layout_toEndOf="@+id/tv1"
+                    android:text="@string/register_now"
                     android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
 

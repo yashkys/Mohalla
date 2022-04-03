@@ -3,4 +3,24 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_otp">Send Otp</string>
+    <string name="otp">OTP</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="welcome_to_mohalla_let_s_get_started">Welcome to (Mohalla)! Let\'s get started.</string>
+    <string name="rs">Rs.</string>
+    <string name="price">Price :</string>
+    <string name="item_name">Item Name</string>
+    <string name="_150_00">150.00</string>
+    <string name="minus_button">Minus Button</string>
+    <string name="_0">0</string>
+    <string name="plus_button">Plus Button</string>
+    <string name="stationery_fragment">Stationery fragment</string>
 </resources>
