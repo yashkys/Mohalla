@@ -1,5 +1,7 @@
 # Mohalla
 ---
+#### All Commits are in master branch
+---
 
 ### Youtube Link
 * [App Demo](https://youtu.be/u0D6fSbsSls)
