@@ -70,7 +70,7 @@ We learnt to effectively use many stuff on android such as firebase , fragment,e
 * Yash Khaitan (Team Learder)
      , _1st Year Cse, IIITT_
 * Krishna Sawroop Rai
-      , _1st Year Cse, IIITT_
+      , _1st Year Ece, IIITT_
 * Kavuluru Lakshmi Srinidhi 
       , _1st Year Cse, IIITT_
    
