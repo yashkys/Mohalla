@@ -2,21 +2,25 @@ package com.kys.mohalla.Model;
 
 public class ItemModel {
 
-    int itemImage;
-    String itemName;
-    String itemPrice;
+    private String itemImage;
+    private String itemName;
+    private String itemPrice;
 
-    public ItemModel(int itemImage, String itemName, String itemPrice) {
+    public ItemModel(){
+
+    }
+
+    public ItemModel(String itemImage, String itemName, String itemPrice) {
         this.itemImage = itemImage;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
     }
 
-    public int getItemImage() {
+    public String getItemImage() {
         return itemImage;
     }
 
-    public void setItemImage(int itemImage) {
+    public void setItemImage(String itemImage) {
         this.itemImage = itemImage;
     }
 

@@ -18,57 +18,59 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:id="@+id/ToolbarLinearLayout"
-        android:layout_width="match_parent"
-        android:layout_marginVertical="10dp"
-        android:layout_marginStart="0dp"
-        android:layout_toStartOf="@id/location"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/search"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/edit_text_bg"
-            android:drawableStart="@drawable/ic_search"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/black"
-            android:hint="@string/search"
-            android:importantForAutofill="no"
-            android:inputType="text"
-            android:paddingStart="10dp"
-            tools:ignore="TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck" />
-    </LinearLayout>
+            android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="14dp"
-        android:layout_toStartOf="@id/Signout"
-        android:background="@color/colorPrimary"
-        android:contentDescription="@string/location"
-        android:src="@drawable/ic_location"
-        tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
+            <LinearLayout
+                android:id="@+id/ToolbarLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_toStartOf="@id/location"
+                android:orientation="vertical">
 
-    <Button
-        android:id="@+id/Signout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="6dp"
-        android:backgroundTint="#1B554D"
-        android:text="@string/sign_out"
-        tools:ignore="TouchTargetSizeCheck" />
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text_bg"
+                    android:drawableStart="@drawable/ic_search"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/black"
+                    android:hint="@string/search"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="10dp"
+                    tools:ignore="TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
 
-</RelativeLayout>
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="14dp"
+                android:layout_toStartOf="@id/Signout"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/location"
+                android:src="@drawable/ic_location"
+                tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/Signout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="6dp"
+                android:backgroundTint="#1B554D"
+                android:text="@string/sign_out"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
@@ -102,11 +104,14 @@
     <fragment
         android:id="@+id/nav_host_fragment_activity_main"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:navGraph="@navigation/mobile_navigation" />
--->
+        -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

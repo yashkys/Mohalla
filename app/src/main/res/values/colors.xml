@@ -14,4 +14,5 @@
     <color name="accent">#03DAC5</color>
     <color name="colorEditText">#5A6B6A</color>
     <color name="red">#F42516</color>
+    <color name="greyTint">#E6E3E3</color>
 </resources>

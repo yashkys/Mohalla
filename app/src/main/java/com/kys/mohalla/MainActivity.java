@@ -13,10 +13,10 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.firebase.auth.FirebaseAuth;
 import com.kys.mohalla.databinding.ActivityMainBinding;
 import com.kys.mohalla.ui.cart.CartFragment;
-import com.kys.mohalla.ui.grocery.GroceryFragment;
-import com.kys.mohalla.ui.medicine.MedicineFragment;
-import com.kys.mohalla.ui.snacks.SnacksFragment;
-import com.kys.mohalla.ui.stationery.StationeryFragment;
+import com.kys.mohalla.ui.GroceryFragment;
+import com.kys.mohalla.ui.MedicineFragment;
+import com.kys.mohalla.ui.SnacksFragment;
+import com.kys.mohalla.ui.StationeryFragment;
 
 public class MainActivity extends AppCompatActivity {
 

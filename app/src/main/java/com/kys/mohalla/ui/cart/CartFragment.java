@@ -13,10 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.kys.mohalla.Model.ItemModel;
 import com.kys.mohalla.R;
 import com.kys.mohalla.databinding.CartFragmentBinding;
-import com.kys.mohalla.databinding.GroceryFragmentBinding;
-import com.kys.mohalla.ui.grocery.GroceryViewModel;
 
 public class CartFragment extends Fragment {
 
@@ -25,13 +24,13 @@ public class CartFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        GroceryViewModel groceryViewModel =
-                new ViewModelProvider(this).get(GroceryViewModel.class);
+//        GroceryViewModel groceryViewModel =
+//                new ViewModelProvider(this).get(ItemModel.class);
 
         binding = CartFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textCart;
+//        final TextView textView = binding.textCart;
         //groceryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
